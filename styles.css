@@ -357,7 +357,7 @@ span{
 /* For Mobiles (480px) */
 @media screen and (max-width:480px) {
     /* First Page */
-
+    
     .first nav {
         padding-top: 2vh;
     }
@@ -414,7 +414,7 @@ span{
     }
     .serv h2 {
         font-size: 30px;
-        padding-top: 0;
+        padding-top: 5%;
         margin-bottom: 1vh;
     }
     .serv .servCon {
@@ -429,7 +429,7 @@ span{
         height: 20%;
         transition: .4s;
         overflow: hidden;
-        margin-bottom: 1vh;
+        margin-bottom: 5%;
     }
     .serv .servCon .servCard:hover {
         transform: none;
@@ -477,7 +477,7 @@ span{
 
     /* Contact Page */
     .cont {
-        height: 35vh;
+        height: 40%;
         padding: 5vh 0;
     }
     .cont .hire {
@@ -503,7 +503,7 @@ span{
 
     /* Footer Page */
     .foot {
-        height: 70vh;
+        height: fit-content;
     }
     .foot .footWriteUp h2 {
         font-size: 20px;
@@ -514,14 +514,17 @@ span{
         font-size: 12px;
         margin-bottom: 5vh;
     }
+    .foot .footCont .social {
+        margin-bottom: 20%;
+    }
     .foot .footCont .social i {
         font-size: 15px;
     }
     .foot .footCont .copy p {
         color: #e2dada;
-        position: absolute;
-        top: 220%;
-        transform: translateY(10%);
+        position: relative;
+        top: 100%;
+        transform: translateY(0%);
         left: 50%;
         transform: translateX(-50%);
         font-size: 12px;
@@ -684,18 +687,22 @@ span{
 
     /* Footer Page */
     .foot {
-        height: 60vh;
+        height: fit-content;
     }
     .foot .footWriteUp h2 {
-        margin: 3vh 0;
+        margin-top: 10%;
+        margin-bottom: 5%;
     }
     .foot .footWriteUp p {
         margin-bottom: 5vh;
     }
+    .foot .footCont .social {
+        margin-bottom: 30%;
+    }
     .foot .footCont .copy p {
         color: #e2dada;
-        position: absolute;
-        top: 170%;
+        position: relative;
+        top: 200%;
         transform: translateY(-50%);
         left: 50%;
         transform: translateX(-50%);

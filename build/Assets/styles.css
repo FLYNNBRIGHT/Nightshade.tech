@@ -17,6 +17,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .firstBgCol {
     background-color: #000000af;
     height: 100vh;
@@ -25,23 +26,29 @@
 
 .first nav {
     display: flex;
-    margin: 0 3%;
+    padding: 0 3%;
     justify-content: space-between;
     align-items: center;
+    background-color: #0000008a;
+    height: 100px;
 }
+
 .first nav ul li {
     display: inline-block;
     list-style: none;
     color: #f0f8ff;
     padding: 10px 20px;
 }
+
 .first nav a {
     text-decoration: none;
     color: #f0f8ff;
     text-transform: capitalize;
     border: transparent;
     transition: .4s;
+    display: block;
 }
+
 .first nav a:hover {
     color: #fff;
     border: transparent;
@@ -50,27 +57,39 @@
     padding: 8px 10px;
     transform: scaleX(1.1) scaleY(1.1);
 }
+
+.arc-menu {
+    font-size: 2rem;
+    color: #FC970B;
+    display: none;
+}
+
 .first .firstWriteUp {
     position: absolute;
     top: 50%;
     left: 15%;
     transform: translateY(-30%);
 }
-.first  h4 {
+
+.first h4 {
     color: #d4810d;
 }
-.first  h1 {
+
+.first h1 {
     margin: 20px 0;
     font-size: 50px;
     transition: .4s;
 }
+
 .first h1:hover {
     color: #fff;
     transform: scaleX(1.1) scaleY(1.1);
 }
-span{
+
+span {
     color: #FC970B;
 }
+
 .first .connect button {
     text-transform: capitalize;
     margin-top: 15%;
@@ -82,6 +101,7 @@ span{
     font-weight: bold;
     color: #000;
 }
+
 .first .connect button:hover {
     background-color: #b66d06;
     cursor: pointer;
@@ -94,54 +114,62 @@ span{
     background-color: #191919;
     padding: 8vh 0;
 }
+
 .aboutCont {
     display: flex;
     width: 70%;
     padding-top: 3vh;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     margin: auto;
     gap: 10%;
 }
+
 .about .img {
     width: 45%;
     background-image: url(./img/about_img.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     border-radius: 35px;
     transition: .4s;
 }
+
 .about .img:hover {
     border: 1px solid #b66d06;
     transform: scaleX(1.1) scaleY(1.1);
 }
+
 .aboutWriteUp {
     width: 50%;
     height: 500px;
     color: #fff;
 }
+
 .aboutWriteUp h2 {
     font-weight: bolder;
     margin-bottom: 2vh;
     font-size: 50px;
     text-transform: capitalize;
 }
+
 .aboutWriteUp h4 {
     font-size: 25px;
-    font-weight:bolder;
+    font-weight: bolder;
     text-transform: capitalize;
     margin-bottom: 1.5vh;
 }
+
 .aboutWriteUp p {
     line-height: 1.2rem;
     justify-content: center;
     text-align: justify;
 }
+
 .aboutWriteUp button {
     color: #000;
-    background-color:  #FC970B;
+    background-color: #FC970B;
     font-weight: bolder;
     text-transform: capitalize;
     border: transparent;
@@ -153,6 +181,7 @@ span{
     width: fit-content;
     height: fit-content;
 }
+
 .aboutWriteUp button:hover {
     background-color: #b66d06;
     cursor: pointer;
@@ -165,14 +194,16 @@ span{
     background-color: #000;
     padding: 20px 0;
 }
+
 .pro .procon {
     background: transparent;
     display: flex;
     width: 80%;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: auto;
 }
+
 .pro h2 {
     font-weight: bolder;
     font-size: 55px;
@@ -182,6 +213,7 @@ span{
     padding-top: 15px;
     margin-bottom: 50px;
 }
+
 .pro .proCard {
     border: 1px solid #FC970B;
     text-align: center;
@@ -192,27 +224,32 @@ span{
     height: auto;
     transition: .4s;
 }
+
 .pro .proCard:hover {
     transform: scaleX(1.1) scaleY(1.1);
     background-color: #d4810d;
     color: #000;
 }
+
 .pro .proCard i {
     margin-top: 10px;
     font-size: 25px;
     color: #FC970B;
 }
+
 .pro .proCard h3 {
     margin-top: 10px;
     text-transform: capitalize;
     font-weight: bolder;
     font-size: 15px;
 }
+
 .pro .proCard p {
     line-height: 1.2rem;
     margin-top: 15px;
     text-align: justify;
 }
+
 .pro .btn {
     border: transparent;
     background-color: #FC970B;
@@ -224,6 +261,7 @@ span{
     font-weight: bolder;
     transition: .4s;
 }
+
 .pro .btn:hover {
     color: #fff;
     transform: scaleX(1.1) scaleY(1.1);
@@ -232,12 +270,14 @@ span{
     border: transparent;
     border-radius: 35px;
 }
+
 .pro .ski {
     display: flex;
     width: 50%;
     justify-content: space-around;
     margin: 10vh auto;
 }
+
 .pro .ski a {
     background: transparent;
     border: transparent;
@@ -245,12 +285,14 @@ span{
     text-decoration: none;
     transition: .4s;
 }
+
 .pro .ski a:hover {
     transform: scaleX(1.2) scaleY(1.2);
-    background: transparent;    
+    background: transparent;
     border: 1px solid transparent;
     color: #FC970B;
 }
+
 .pro .ski a i {
     font-weight: bolder;
     font-size: 35px;
@@ -264,12 +306,15 @@ span{
     background-color: #191919;
     padding: 70px 0;
 }
+
 .cont .hire {
     position: relative;
     top: 10%;
-    margin: auto;;
+    margin: auto;
+    ;
     text-align: center;
 }
+
 .cont p {
     color: #fff;
     font-size: 35px;
@@ -277,6 +322,7 @@ span{
     text-transform: capitalize;
     margin-bottom: 25px;
 }
+
 .cont button {
     background-color: #FC970B;
     border: transparent;
@@ -291,6 +337,7 @@ span{
     height: fit-content;
     transition: .4s;
 }
+
 .cont button:hover {
     background-color: #b66d06;
     cursor: pointer;
@@ -304,21 +351,25 @@ span{
     height: 250px;
     text-align: center;
 }
+
 .foot .footCont {
     position: relative;
     top: 20%;
     display: flex;
     flex-direction: column;
 }
+
 .foot .footWriteUp h2 {
     font-weight: bolder;
     margin-bottom: 20px;
     color: #fff;
 }
+
 .foot .footWriteUp p {
     margin-bottom: 5px;
     color: #fff;
 }
+
 .foot .footCont a {
     background-color: #FC970B;
     padding: 8px 10px;
@@ -328,12 +379,14 @@ span{
     color: #000;
     transition: .4s;
 }
+
 .foot .footCont a:hover {
     transform: scaleX(1.2) scaleY(1.2);
     background: transparent;
     border: 1px solid #FC970B;
     color: #FC970B;
 }
+
 .foot .social {
     width: 150px;
     text-decoration: none;
@@ -341,6 +394,7 @@ span{
     justify-content: space-between;
     margin: auto;
 }
+
 .foot .footCont .copy p {
     color: #e2dada;
     position: absolute;
@@ -357,16 +411,19 @@ span{
 /* For Mobiles (480px) */
 @media screen and (max-width:480px) {
     /* First Page */
-    
+
     .first nav {
         padding-top: 2vh;
     }
+
     .first nav ul li {
         padding: 3px 5px;
     }
+
     .first nav a {
         font-size: 12px;
     }
+
     .first nav a:hover {
         padding: 3px 5px;
         transform: none;
@@ -378,9 +435,11 @@ span{
         width: 90%;
         padding-top: 0;
     }
+
     .about .img {
         display: none;
     }
+
     .aboutWriteUp {
         width: 100%;
         height: 80vh;
@@ -388,19 +447,23 @@ span{
         justify-content: center;
         text-align: center;
     }
+
     .aboutWriteUp h2 {
         margin-bottom: 2vh;
         font-size: 30px;
     }
+
     .aboutWriteUp h4 {
         font-size: 18px;
         margin-bottom: 2vh;
     }
+
     .aboutWriteUp p {
         line-height: 3vh;
         text-align: justify;
         font-size: 15px;
     }
+
     .aboutWriteUp button {
         margin-top: 3vh;
         padding: 10px 10px;
@@ -412,16 +475,19 @@ span{
     .pro {
         height: 100vh;
     }
+
     .pro h2 {
         font-size: 30px;
         padding-top: 5%;
         margin-bottom: 1vh;
     }
+
     .pro .procon {
         display: inline-block;
         width: 95%;
         margin: 1%;
     }
+
     .pro .procon .proCard {
         padding: 1px 3px;
         border-radius: 20px;
@@ -431,31 +497,38 @@ span{
         overflow: hidden;
         margin-bottom: 5%;
     }
+
     .pro .procon .proCard:hover {
         transform: none;
     }
+
     .pro .proCard i {
         display: none;
     }
+
     .pro .proCard h3 {
         margin-top: 1vh;
         font-size: 15px;
     }
+
     .pro .proCard p {
         line-height: 2.5vh;
         margin-top: 1vh;
         font-size: 12px;
     }
+
     .pro .btn {
         padding: 3px;
         margin-top: 1vh;
     }
+
     .pro .ski {
         display: flex;
         width: 50%;
         justify-content: space-between;
         margin: 1vh auto 0 auto;
     }
+
     .pro .ski a {
         background: transparent;
         border: transparent;
@@ -463,12 +536,14 @@ span{
         text-decoration: none;
         transition: .4s;
     }
+
     .pro .ski a:hover {
         transform: scaleX(1.2) scaleY(1.2);
         background: transparent;
         border: 1px solid transparent;
         color: #FC970B;
     }
+
     .pro .ski a i {
         font-weight: bolder;
         font-size: 25px;
@@ -480,14 +555,17 @@ span{
         height: 40%;
         padding: 5vh 0;
     }
+
     .cont .hire {
         top: 5%;
         align-items: center;
     }
+
     .cont p {
         font-size: 23px;
         margin-bottom: 4vh;
     }
+
     .cont button {
         padding: 5px;
         border-radius: 20px;
@@ -496,6 +574,7 @@ span{
         height: fit-content;
         transition: .4s;
     }
+
     .cont button:hover {
         background-color: #b66d06;
         cursor: pointer;
@@ -505,21 +584,26 @@ span{
     .foot {
         height: fit-content;
     }
+
     .foot .footWriteUp h2 {
         font-size: 20px;
         font-weight: bold;
         margin: 3vh 0;
     }
+
     .foot .footWriteUp p {
         font-size: 12px;
         margin-bottom: 5vh;
     }
+
     .foot .footCont .social {
         margin-bottom: 20%;
     }
+
     .foot .footCont .social i {
         font-size: 15px;
     }
+
     .foot .footCont .copy p {
         color: #e2dada;
         position: relative;
@@ -532,22 +616,27 @@ span{
 }
 
 /* Extra small Devices (481-767px) */
-@media screen and (min-width:481px) and (max-width:767px) {
-     /* First Page */
+@media (min-width:481px) and (max-width:767px) {
+
+    /* First Page */
     .first .firstBgCol nav {
         padding-top: 3vh;
-        margin: 0 3vw;
+        padding: 0 4%;
     }
+
     .first nav ul li {
-        padding: 3px 5px;
+        padding: 0 5px;
     }
+
     .first nav a {
         font-size: 12px;
     }
+
     .first nav a:hover {
         padding: 3px 5px;
         transform: none;
     }
+
     .first .firstWriteUp {
         top: 45%;
         left: 15%;
@@ -559,13 +648,19 @@ span{
         width: 100%;
         padding: 5vh 0;
     }
+
     .aboutCont {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         width: 90%;
     }
+
     .about .img {
-        display: none;
+        width: 90%;
+        height: 40dvh;
+        margin-bottom: 3rem;
     }
+
     .aboutWriteUp {
         width: 100%;
         height: 80vh;
@@ -573,18 +668,22 @@ span{
         justify-content: center;
         text-align: center;
     }
+
     .aboutWriteUp h2 {
         margin-bottom: 3vh;
         font-size: 35px;
     }
+
     .aboutWriteUp h4 {
         font-size: 20px;
         margin-bottom: 2vh;
     }
+
     .aboutWriteUp p {
         line-height: 1.5rem;
         text-align: justify;
     }
+
     .aboutWriteUp button {
         margin-top: 3vh;
         padding: 10px 10px;
@@ -596,16 +695,19 @@ span{
     .pro {
         height: 100vh;
     }
+
     .pro h2 {
         font-size: 35px;
         padding-top: 0;
         margin-bottom: 1vh;
     }
+
     .pro .procon {
         display: inline-block;
         width: 95%;
         margin: 2%;
     }
+
     .pro .procon .proCard {
         padding: 2px 5px;
         border-radius: 20px;
@@ -615,31 +717,38 @@ span{
         overflow: hidden;
         margin-bottom: 0.8vh;
     }
+
     .pro .procon .proCard:hover {
         transform: none;
     }
+
     .pro .proCard i {
         font-size: 2vh;
     }
+
     .pro .proCard h3 {
         margin-top: 1vh;
         font-size: 15px;
     }
+
     .pro .proCard p {
         line-height: 1rem;
         margin-top: 1vh;
         font-size: 12px;
     }
+
     .pro .btn {
         padding: 5px;
         margin-top: 1vh;
     }
+
     .pro .ski {
         display: flex;
         width: 50%;
         justify-content: space-between;
         margin: 0 auto 0 auto;
     }
+
     .pro .ski a {
         background: transparent;
         border: transparent;
@@ -647,12 +756,14 @@ span{
         text-decoration: none;
         transition: .4s;
     }
+
     .pro .ski a:hover {
         transform: scaleX(1.2) scaleY(1.2);
         background: transparent;
         border: 1px solid transparent;
         color: #FC970B;
     }
+
     .pro .ski a i {
         font-weight: bolder;
         font-size: 25px;
@@ -664,14 +775,17 @@ span{
         height: 30vh;
         padding: 5vh 0;
     }
+
     .cont .hire {
         top: 5%;
         align-items: center;
     }
+
     .cont p {
         font-size: 25px;
         margin-bottom: 5vh;
     }
+
     .cont button {
         padding: 8px;
         border-radius: 20px;
@@ -680,6 +794,7 @@ span{
         height: fit-content;
         transition: .4s;
     }
+
     .cont button:hover {
         background-color: #b66d06;
         cursor: pointer;
@@ -689,16 +804,20 @@ span{
     .foot {
         height: fit-content;
     }
+
     .foot .footWriteUp h2 {
         margin-top: 10%;
         margin-bottom: 5%;
     }
+
     .foot .footWriteUp p {
         margin-bottom: 5vh;
     }
+
     .foot .footCont .social {
         margin-bottom: 30%;
     }
+
     .foot .footCont .copy p {
         color: #e2dada;
         position: relative;
@@ -712,26 +831,28 @@ span{
 
 /* For Small Tablets (768-991px) */
 @media screen and (min-width:768px) and (max-width:991px) {
+
     /* First Page */
-    .first nav ul li {
-        padding: 2vh 1vh
-    }
 
     /*     About Page */
-    .aboutCont{
-        gap:5%;
+    .aboutCont {
+        gap: 5%;
         width: 80%;
         padding-top: 2%;
     }
+
     .about .img {
         height: 430px;
-        margin-top: 0;  
+        margin-top: 3rem;
     }
+
     .aboutWriteUp p {
-        line-height: 1.0rem;
-        font-size: 2.5vh;
+        line-height: 1.5rem;
+        font-size: 2.0vh;
         text-align: justify;
+        margin-bottom: 2rem;
     }
+
     .aboutWriteUp button {
         width: fit-content;
         height: fit-content;
@@ -744,25 +865,31 @@ span{
         width: 90%;
         margin: auto;
     }
+
     .pro h2 {
         font-size: 35px;
         padding-top: 15px;
         margin-bottom: 5vh;
     }
+
     .pro .servCon {
         gap: 4%;
     }
+
     .pro .procon .proCard {
         width: 32%;
     }
+
     .pro .proCard i {
         margin-top: 1vh;
     }
+
     .pro .proCard p {
         line-height: 1rem;
         margin-top: 10px;
         text-align: left center;
     }
+
     .pro .ski {
         margin: 5vh auto;
     }
@@ -772,11 +899,13 @@ span{
         height: 30vh;
         padding: 5vh 0;
     }
+
     .cont p {
         color: #fff;
         font-size: 30px;
         margin-bottom: 4vh;
     }
+
     .cont button {
         padding: 1.5vh 1.5vw;
         border-radius: 35px;
@@ -784,56 +913,67 @@ span{
         width: fit-content;
         height: fit-content;
     }
-    
+
     /* Footer starts here */
     .foot {
         height: 35vh;
     }
+
     .foot .footCont {
         top: 10%;
     }
+
     .foot .footWriteUp h2 {
         font-size: 18px;
         margin-bottom: 3vh;
     }
+
     .foot .footWriteUp p {
         margin-bottom: 2vh;
         font-size: 15px;
     }
+
     .foot .footCont .copy p {
         top: 160%;
         font-size: 12px;
     }
 }
-
 /* For Large Tablets and Laptops (992-1199px) */
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media (min-width:992px) and (max-width:1199px) {
+
     /*     About Page */
     .aboutCont {
         padding-top: 5vh;
     }
+
     .about .img {
-        height: 400px;
+        height: 50dvh;
+        width: 60%;
         margin-top: 0;
     }
+
     .aboutWriteUp {
-        height: 450px;
-        width: 50%;
+        height: 60dvh;
+        width: 60%;
     }
+
     .aboutWriteUp h2 {
         margin-bottom: 10px;
-        font-size: 35px;
+        font-size: 50px;
     }
+
     .aboutWriteUp h4 {
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
+
     .aboutWriteUp p {
-        line-height: 1.1rem;
-        font-size: 13px;
+        line-height: 1.5rem;
+        font-size: 18px;
         margin-bottom: 5px;
         width: 100%;
     }
+
     .aboutWriteUp button {
         width: fit-content;
         height: fit-content;
@@ -843,14 +983,16 @@ span{
 
     /* Services Page */
     .pro h2 {
-        font-size: 40px;
+        font-size: 50px;
         padding-top: 15px;
         margin-bottom: 5vh;
     }
+
     .pro .proCard p {
         line-height: 1.1rem;
         margin-top: 10px;
     }
+
     .pro .ski {
         display: flex;
         width: 50%;
@@ -860,78 +1002,94 @@ span{
 }
 
 /* For Desktops (1200-1919px) */
-@media screen and (min-width:1200px) and (max-width:1919px) {
+@media (min-width:1200px) and (max-width:1919px) {
     /*     About Page */
     .about .img {
         height: 400px;
         margin-top: 0;
     }
+
     .aboutWriteUp {
         height: 450px;
         width: 50%;
     }
 }
+
 /* For Extra Large Screens */
-@media screen and (min-width:1920px) {
+@media (min-width:1920px) {
     .first nav {
         margin: 0 5%;
     }
+
     .first nav ul li {
         padding: 20px 40px;
     }
+
     .first nav a {
         font-size: 30px;
     }
+
     .first nav a:hover {
         padding: 12px 20px;
         color: #000;
     }
-    .first  h4 {
+
+    .first h4 {
         font-size: 50px;
     }
-    .first  h1 {
+
+    .first h1 {
         margin: 50px 0;
         font-size: 100px;
     }
+
     .first h3 {
         font-size: 30px;
     }
+
     .first .connect button {
         border-radius: 50px;
         padding: 20px 25px;
         font-size: 40px;
     }
-    
+
     /* About Starts Here */
     .about {
         padding: 10vh 0;
     }
+
     .aboutCont {
         padding-top: 3vh;
         gap: 10%;
     }
+
     .about .img {
         height: 70vh;
         border-radius: 50px;
     }
+
     .aboutWriteUp {
         width: 50%;
         height: 70vh;
     }
+
     .aboutWriteUp h2 {
         margin-bottom: 3vh;
         font-size: 100px;
     }
+
     .aboutWriteUp h4 {
         font-size: 50px;
         margin-bottom: 3vh;
     }
+
     .aboutWriteUp p {
         line-height: 2.5rem;
         justify-content: center;
         text-align: justify;
         font-size: 30px;
     }
+
     .aboutWriteUp button {
         margin-top: 3vh;
         border-radius: 35px;
@@ -943,76 +1101,150 @@ span{
     .pro {
         padding: 10vh 0;
     }
+
     .pro h2 {
         font-size: 100px;
         padding-top: 3vh;
         margin-bottom: 3vh;
     }
+
     .pro .proCard {
         padding: 2vh 2vw;
         border-radius: 50px;
         width: 30%;
     }
+
     .pro .proCard i {
         margin-top: 2vh;
         font-size: 50px;
     }
+
     .pro .proCard h3 {
         margin-top: 2vh;
         font-size: 30px;
     }
+
     .pro .proCard p {
         line-height: 2rem;
         margin-top: 2vh;
         font-size: 25px;
     }
+
     .pro .btn {
         border-radius: 35px;
         padding: 1vh 1vw;
         margin-top: 2vh;
         font-size: 30px;
     }
+
     .pro .btn:hover {
         font-size: 20px;
     }
+
     .pro .ski a i {
         font-size: 70px;
     }
-    
+
     /* Contacts Starts Here */
     .cont {
         height: 50vh;
     }
+
     .cont p {
         font-size: 70px;
         margin: 5vh 0;
     }
+
     .cont button {
         padding: 1.5vh 2vh;
         border-radius: 50px;
         margin-top: 5vh;
         font-size: 50px;
     }
-    
+
     /* Footer starts here */
     .foot {
         height: 40vh;
     }
+
     .foot .footWriteUp h2 {
         margin-bottom: 5vh;
         font-size: 35px;
     }
+
     .foot .footWriteUp p {
         margin-bottom: 2.5vh;
         font-size: 30px;
     }
+
     .foot .social {
         justify-content: center;
         width: 150px;
         font-size: 30px;
         gap: 3vw;
     }
+
     .foot .footCont .copy p {
         font-size: 25px;
+    }
+}
+
+
+/* Hamburger Menu */
+
+@media (max-width: 767px) {
+    .arc-menu {
+        display: block;
+    }
+    .arc-menu .ham-butt:hover {
+        cursor: pointer;
+    }
+    .arc-menu #check {
+        display: none;
+    }
+
+    nav ul {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+        max-width: 75vw;
+        height: 50dvh;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: #000;
+        z-index: 1000;
+        border-radius: 0 0 25px 25px;
+    }
+
+    nav ul li{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .first nav a {
+        transition: none;
+        height: 100%;
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        border-radius: 0;
+    }
+    .first nav a:hover {
+        padding-top: 3.5rem;
+        border-radius: 10px;
+    }
+
+    .first nav a:hover {
+        color: #fff;
+        border: transparent;
+        border-radius: 50px;
+        background-color: #FC970B;
+        transform: none;
     }
 }
